@@ -1,0 +1,25 @@
+Day 2 cw1:
+Index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Greet from './components/javascript/ddd';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    
+    <Greet />
+  </React.StrictMode>
+);
+
+
+Greet.js
+import React from 'react'
+
+export default function Greet() {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+    </div>
+  );
+}
